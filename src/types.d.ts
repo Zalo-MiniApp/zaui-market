@@ -56,9 +56,10 @@ export type Delivery =
   | ({
       type: "shipping";
     } & ShippingAddress)
-  | ({
+  | {
       type: "pickup";
-    } & Station);
+      stationId: number;
+    };
 
 export type OrderStatus = "pending" | "shipping" | "completed";
 

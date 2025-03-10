@@ -1,12 +1,11 @@
 import { useAtom, useAtomValue } from "jotai";
 import { MutableRefObject, useLayoutEffect, useMemo, useState } from "react";
 import toast from "react-hot-toast";
-import { UIMatch, useMatches } from "react-router-dom";
+import { UIMatch, useMatches, useNavigate } from "react-router-dom";
 import { cartState, cartTotalState } from "@/state";
 import { Product } from "@/types";
 import { getConfig } from "@/utils/template";
 import { createOrder, openChat } from "zmp-sdk";
-import { useNavigate } from "zmp-ui";
 
 export function useRealHeight(
   element: MutableRefObject<HTMLDivElement | null>,
