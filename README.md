@@ -38,10 +38,6 @@ A template for vendors to sale their products on the online market. It provides 
    ```
 1. **Open** `localhost:3000` in your browser and start coding 🔥
 
-### Using Zalo Mini App Studio
-
-This template is built using **Vite 5.x**, which is **not compatible** with Zalo Mini App Studio.
-
 ## Deployment
 
 1. **Create** a Zalo Mini App ID. For instructions, please refer to the [Coffee Shop Tutorial](https://miniapp.zaloplatforms.com/documents/tutorial/coffee-shop).
